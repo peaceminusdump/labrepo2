@@ -13,9 +13,9 @@
         //The value of $course is accessible here because we declared it as global.
     }
 
-    showCourse();
-    showCourse_global();
+    showCourse(); //It shows an error: "Undefined variable: course".
+    showCourse_global(); //Inside function, Outputs: Web Development
     echo "<br>";
-    echo $course; // Outputs: Web Development
+    echo $course; // Outside function, Outputs: Web Development
 
 ?>
