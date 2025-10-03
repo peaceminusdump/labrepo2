@@ -13,6 +13,7 @@
         //The value of $course is accessible here because we declared it as global.
     }
 
+    showCourse();
     showCourse_global();
     echo "<br>";
     echo $course; // Outputs: Web Development
